@@ -17,6 +17,7 @@
 		"access": "public"
 	},
 	"scripts": {
+		"prepare": "npm run build",
 		"build": "tsc",
 		"clean": "tsc --build --clean",
 		"test": "vitest run"
