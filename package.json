@@ -1,0 +1,33 @@
+{
+	"name": "markuplint-freemarker-parser",
+	"version": "0.1.0",
+	"description": "FreeMarker parser for markuplint",
+	"repository": "git@github.com:mallowlabs/markuplint-freemarker-parser.git",
+	"author": "mallowlabs",
+	"license": "MIT",
+	"private": false,
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./lib/index.js"
+		}
+	},
+	"types": "lib/index.d.ts",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsc",
+		"clean": "tsc --build --clean",
+		"test": "vitest run"
+	},
+	"dependencies": {
+		"@markuplint/html-parser": "3.11.0",
+		"@markuplint/ml-ast": "3.2.0",
+		"@markuplint/parser-utils": "3.11.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.2.2",
+		"vitest": "^0.34.5"
+	}
+}
