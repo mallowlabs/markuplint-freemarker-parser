@@ -12,12 +12,12 @@ export const parse: Parse = (rawCode, options) => {
 		},
 		{
 			type: 'freemarker-tag',
-			start: /<#\w+/,
+			start: /<[#@]\w+/,
 			end: />/,
 		},
 		{
 			type: 'freemarker-tag',
-			start: /<\/#/,
+			start: /<\/[#@]/,
 			end: />/,
 		},
 		{

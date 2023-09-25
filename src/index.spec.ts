@@ -107,6 +107,8 @@ describe('Tags', () => {
 	test('freemarker-tag', () => {
 		expect(parse('<#any>').nodeList[0]?.nodeName).toBe('#ps:freemarker-tag');
 		expect(parse('</#any>').nodeList[0]?.nodeName).toBe('#ps:freemarker-tag');
+		expect(parse('<@any>').nodeList[0]?.nodeName).toBe('#ps:freemarker-tag');
+		expect(parse('</@any>').nodeList[0]?.nodeName).toBe('#ps:freemarker-tag');
 	});
 
 	test('freemarker-expression', () => {
