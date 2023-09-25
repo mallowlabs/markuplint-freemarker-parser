@@ -6,12 +6,7 @@
 	"author": "mallowlabs",
 	"license": "MIT",
 	"private": false,
-	"type": "module",
-	"exports": {
-		".": {
-			"import": "./lib/index.js"
-		}
-	},
+	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"publishConfig": {
 		"access": "public"
