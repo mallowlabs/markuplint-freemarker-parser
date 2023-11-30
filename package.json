@@ -18,9 +18,9 @@
 		"test": "vitest run"
 	},
 	"dependencies": {
-		"@markuplint/html-parser": "3.12.0",
+		"@markuplint/html-parser": "3.13.0",
 		"@markuplint/ml-ast": "3.2.0",
-		"@markuplint/parser-utils": "3.12.0"
+		"@markuplint/parser-utils": "3.13.0"
 	},
 	"devDependencies": {
 		"typescript": "^5.3.2",
