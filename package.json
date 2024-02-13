@@ -6,7 +6,12 @@
 	"author": "mallowlabs",
 	"license": "MIT",
 	"private": false,
-	"main": "lib/index.js",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./lib/index.js"
+		}
+	},
 	"types": "lib/index.d.ts",
 	"publishConfig": {
 		"access": "public"
@@ -18,11 +23,10 @@
 		"test": "vitest run"
 	},
 	"dependencies": {
-		"@markuplint/html-parser": "3.13.0",
-		"@markuplint/ml-ast": "3.2.0",
-		"@markuplint/parser-utils": "3.13.0"
+		"@markuplint/html-parser": "4.0.0"
 	},
 	"devDependencies": {
+		"@markuplint/parser-utils": "4.0.0",
 		"typescript": "^5.3.3",
 		"vitest": "^1.2.2"
 	}
