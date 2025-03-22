@@ -23,10 +23,10 @@
 		"test": "vitest run"
 	},
 	"dependencies": {
-		"@markuplint/html-parser": "4.6.17"
+		"@markuplint/html-parser": "4.6.18"
 	},
 	"devDependencies": {
-		"@markuplint/parser-utils": "4.8.5",
+		"@markuplint/parser-utils": "4.8.6",
 		"typescript": "^5.8.2",
 		"vitest": "^3.0.9"
 	}
