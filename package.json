@@ -28,6 +28,6 @@
 	"devDependencies": {
 		"@markuplint/parser-utils": "4.8.11",
 		"typescript": "^5.9.3",
-		"vitest": "^4.1.2"
+		"vitest": "^4.1.4"
 	}
 }
